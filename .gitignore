@@ -3,6 +3,37 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+# Ignore project backup and logs
+*.local
+*.settings
+*.user
+*.suo
+*.cache
+*.log
+
+# Ignore UiPath packages and cache directories
+project.json.bak
+*.nupkg
+/.local/
+*/Output/*
+*/temp/*
+
+# Ignore the .screenshots folder if you store screenshots for documentation purposes
+/Screenshots/*
+
+# Ignore any testing-related files
+TestResults/*
+
+# Ignore version control backups or temp files
+~$*
+
+# Ignore config files with personal or environment-specific settings
+*.config
+*.env
+*.txt
+
+
 # C extensions
 *.so
 
